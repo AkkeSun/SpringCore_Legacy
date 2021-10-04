@@ -15,7 +15,7 @@ import lombok.extern.log4j.Log4j2;
 public class LogginAspect {
 	
     // 해당 클래스 모든 매서드에 적용
-    @Pointcut("execution(* a.b.c.*.*(..))")
+    @Pointcut("execution(* a.b.c.controller.*.*(..))")
     public void point1(){};
     
     // 타겟 메서드를 감싸서 실행

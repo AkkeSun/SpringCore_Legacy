@@ -5,7 +5,8 @@ import java.util.Locale;
 
 import org.springframework.format.Formatter;
 
-import a.b.c.TestDto;
+import a.b.c.dto.TestDto;
+
 
 public class EventFormatter implements Formatter<TestDto> {
 

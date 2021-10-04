@@ -3,7 +3,8 @@ package a.b.c.validator;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
-import a.b.c.TestDto;
+import a.b.c.dto.TestDto;
+
 
 public class Eventvalidator implements Validator{
 

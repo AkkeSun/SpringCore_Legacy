@@ -1,4 +1,4 @@
-package a.b.c;
+package a.b.c.dto;
 
 import lombok.Data;
 
